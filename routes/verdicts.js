@@ -1,45 +1,21 @@
 import express from 'express';
-import { Verdict } from '../models/verdict.model';
+import { pushVerdictToNotion } from '../notion/notionSync.js';
 
 const router = express.Router();
 
-/**
- * @swagger
- * /verdict:
- *   post:
- *     summary: Log a verdict with test/question/response IDs
- *     tags: [Verdict]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             properties:
- *               testId:
- *                 type: string
- *               questionId:
- *                 type: string
- *               responseId:
- *                 type: string
- *               verdict:
- *                 type: string
- *               type:
- *                 type: string
- *     responses:
- *       201:
- *         description: Verdict logged successfully
- *       500:
- *         description: Internal server error
- */
-router.post('/', async (req, res) => {
-  try {
-    const verdict = new Verdict(req.body);
-    await verdict.save();
-    res.status(201).json(verdict);
-  } catch (err) {
-    console.error('❌ Verdict Save Error:', err.message);
-    res.status(500).json({ error: 'Failed to save verdict' });
+// 🧠 POST /api/verdicts — Push a verdict to Notion
+router.post('/verdicts', async (req, res) => {
+  const verdict = req.body;
+
+  // Validate required fields
+  const required = ['symbol', 'verdict', 'capital', 'entry', 'stop', 'target', 'date'];
+  const missing = required.filter(field => !verdict[field]);
+
+  if (missing.length > 0) {
+    return res.status(400).json({
+      status: 'error',
+      message: `Missing required fields: ${missing.join(', ')}`
+    });
   }
 });
 
@@ -57,11 +33,20 @@ router.post('/', async (req, res) => {
  */
 router.get('/', async (_req, res) => {
   try {
-    const verdicts = await Verdict.find().sort({ timestamp: -1 });
-    res.json(verdicts);
+    const notionResponse = await pushVerdictToNotion(verdict);
+
+    res.status(200).json({
+      status: 'success',
+      message: 'Verdict synced to Notion',
+      notion_id: notionResponse?.id || null,
+      payload: verdict
+    });
   } catch (err) {
-    console.error('❌ Verdict Fetch Error:', err.message);
-    res.status(500).json({ error: 'Failed to fetch verdicts' });
+    res.status(500).json({
+      status: 'error',
+      message: 'Notion sync failed',
+      error: err.message
+    });
   }
 });
 

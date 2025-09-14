@@ -38,16 +38,19 @@ export function verifyToken(req, res, next) {
 /**
  * Middleware to enforce role-based access
  */
-export function requireRole(role) {
+export function startingMiddleware(req, res, next) {
+  console.log(`${req.method} ${req.url}`);
+  next();
+}
+
+export function verifyRole(role) {
   return function (req, res, next) {
-    const user = req.user;
+    const { user } = req;
     if (!user || user.role !== role) {
-      console.warn(`[Auth] Forbidden for role '${user?.role}': ${req.method} ${req.originalUrl}`);
-      return res.status(403).json({ message: 'Forbidden: insufficient privileges' });
+      return res.status(403).json({ message: "Forbidden: insufficient role" });
     }
     next();
   };
 }
 
-// ✅ Default export for compatibility with `import verifyToken from ...`
-export default verifyToken;
+export default verifyRole;

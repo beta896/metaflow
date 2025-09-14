@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-09-17T02:26:11.5507778+03:00",
+  "status": "WITHDRAWN",
+  "method": "MetaFlow Wallet",
+  "amount": 150.0,
+  "transactionId": "TXN-223843",
+  "walletId": "WALLET-001",
+  "marketerId": "MARKETER-001"
+}

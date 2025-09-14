@@ -1,28 +1,29 @@
-// milestoneSync.js
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { validateMilestone } from './milestoneValidator.js';
-import { logMilestone } from './milestoneLogger.js';
+import mongoose from "mongoose";
+import Affiliate from "../models/Affiliate.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const rawJson = fs.readFileSync(path.join(__dirname, 'milestone.json'), 'utf-8');
-const milestone = JSON.parse(rawJson);
-
-export function logMilestoneToNotion({ title, description, type, module }) {
-  console.log(`Milestone Logged: Title: ${title} | Description: ${description} | Type: ${type} | Module: ${module}`);
+function getTier(profit) {
+  if (profit >= 10000) return "🏆 Gold";
+  if (profit >= 5000) return "🥈 Silver";
+  if (profit >= 1000) return "🥉 Bronze";
+  return "🚀 Starter";
 }
 
-export async function syncMilestone() {
-  try {
-    const data = validateMilestone(milestone?.motion?.milestone || {});
-    logMilestone(data);
-    fs.writeFileSync(path.join(__dirname, 'milestoneOutput.json'), JSON.stringify(data, null, 2));
-    return data;
-  } catch (error) {
-    console.error('? Milestone sync failed:', error.message);
-    throw error;
-  }
+async function syncMilestones() {
+  await mongoose.connect("mongodb://localhost:27017/metaflow", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
+
+  const affiliates = await Affiliate.find({});
+  console.log("🔄 Milestone Sync Started");
+
+  affiliates.forEach((a) => {
+    const tier = getTier(a.profitGenerated);
+    console.log(`🧠 ${a.name} | ${a.referralCode} → ${tier} | $${a.profitGenerated}`);
+  });
+
+  console.log("✅ Milestone Sync Complete");
+  mongoose.disconnect();
 }
+
+syncMilestones();

@@ -1,0 +1,13 @@
+{
+  "mirroredBy": "Mustafa",
+  "modules": [
+    "CapitalRelay",
+    "AffiliateSync",
+    "ProfitDistribution",
+    "LegacyExport"
+  ],
+  "cockpitState": "SEALED",
+  "timestamp": "2025-09-17T03:01:05.2184630+03:00",
+  "mirrorId": "MIRROR-2025-NEXT",
+  "reflectionType": "Next-Tier Sovereign Snapshot"
+}

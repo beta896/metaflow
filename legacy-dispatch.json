@@ -1,0 +1,9 @@
+{
+  "destination": "Legacy Engine Archive",
+  "verdictRef": "final-verdict.json",
+  "dispatchId": "DISPATCH-2025-LEGACY",
+  "timestamp": "2025-09-17T03:01:11.7122651+03:00",
+  "payloadRef": "final-payload.json",
+  "manifestRef": "immortal-manifest.json",
+  "dispatchedBy": "Mustafa"
+}

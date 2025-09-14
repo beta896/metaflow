@@ -1,0 +1,27 @@
+[
+  {
+    "milestone": "OFFER FLOW EXPORTED",
+    "timestamp": "2025-09-17T02:36:31.8049157+03:00",
+    "status": "✅"
+  },
+  {
+    "milestone": "MIA FILTER ACTIVATED",
+    "timestamp": "2025-09-17T02:36:31.8049894+03:00",
+    "status": "✅"
+  },
+  {
+    "milestone": "WALLET LEDGER SEALED",
+    "timestamp": "2025-09-17T02:36:31.8050070+03:00",
+    "status": "✅"
+  },
+  {
+    "milestone": "WITHDRAWAL TRIGGERED",
+    "timestamp": "2025-09-17T02:36:31.8050212+03:00",
+    "status": "✅"
+  },
+  {
+    "milestone": "LEGACY SNAPSHOT EXPORTED",
+    "timestamp": "2025-09-17T02:36:31.8050363+03:00",
+    "status": "✅"
+  }
+]

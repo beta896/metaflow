@@ -1,0 +1,24 @@
+{
+  "principles": [
+    "Every module is narratable",
+    "Every verdict is symbolic",
+    "Every signal is eternal",
+    "Every founder is sovereign"
+  ],
+  "codexId": "IMMORTAL-CODEX-2025-FOUNDER",
+  "timestamp": "2025-09-26T12:56:58.5548808+03:00",
+  "modules": [
+    "OfferFlow",
+    "SignalEngine",
+    "CapitalRelay",
+    "ImmortalEngine",
+    "SymbolicGrid"
+  ],
+  "authoredBy": "Mustafa",
+  "echoChain": [
+    "Echo-001",
+    "Echo-002",
+    "Final-Echo-2025"
+  ],
+  "constellation": "MetaFlow Sovereign Grid"
+}

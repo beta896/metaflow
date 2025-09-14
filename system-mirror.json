@@ -1,0 +1,14 @@
+{
+  "mirroredBy": "Mustafa",
+  "modules": [
+    "OfferFlow",
+    "MiaFilter",
+    "WalletLedger",
+    "SignalEngine",
+    "CapitalRelay"
+  ],
+  "cockpitState": "SEALED",
+  "timestamp": "2025-09-17T02:57:57.1443198+03:00",
+  "mirrorId": "MIRROR-2025-FOUNDER",
+  "reflectionType": "Operational Snapshot"
+}

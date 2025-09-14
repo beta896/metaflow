@@ -1,8 +1,9 @@
-const express = require('express');
+import express from "express";
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.json({ message: '?? User route active — cockpit online' });
+// Example route
+router.get("/profile", (req, res) => {
+  res.json({ message: "User profile loaded" });
 });
 
-module.exports = router;
+export default router;

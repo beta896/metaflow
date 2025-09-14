@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-09-16T10:00:00Z",
+    "tier": "INIT",
+    "star": "OfferFlow"
+  },
+  {
+    "timestamp": "2025-09-16T12:00:00Z",
+    "tier": "ACTIVE",
+    "star": "MiaFilter"
+  },
+  {
+    "timestamp": "2025-09-16T14:00:00Z",
+    "tier": "ESCALATED",
+    "star": "WalletLedger"
+  },
+  {
+    "timestamp": "2025-09-16T16:00:00Z",
+    "tier": "SEALED",
+    "star": "CapitalRelay"
+  },
+  {
+    "timestamp": "2025-09-17T03:05:50.0559968+03:00",
+    "tier": "LEGACY",
+    "star": "ImmortalEngine"
+  }
+]

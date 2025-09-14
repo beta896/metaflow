@@ -1,0 +1,13 @@
+{
+  "legacySeal": "LEGACY-2025-FOUNDER",
+  "exportedBy": "Mustafa",
+  "modules": [
+    "OfferFlow",
+    "MiaFilter",
+    "WalletLedger",
+    "TierMap"
+  ],
+  "cockpitState": "SEALED",
+  "timestamp": "2025-09-17T02:38:57.2952860+03:00",
+  "founderId": "FOUNDER-001"
+}

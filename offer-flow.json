@@ -1,0 +1,10 @@
+{
+  "offerId": "OFFER-2025-001",
+  "partnerId": "PARTNER-ALPHA",
+  "timestamp": "2025-09-17T00:51:40.9896224+03:00",
+  "marketerRate": 0.15,
+  "commissionRate": 0.25,
+  "metaflowCut": 0.1,
+  "rawLink": "https://amazon.com/deal123",
+  "status": "ACTIVE"
+}

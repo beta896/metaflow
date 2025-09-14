@@ -1,0 +1,20 @@
+{
+  "principles": [
+    "Every cockpit pulse is narratable",
+    "Every verdict is symbolic",
+    "Every signal is eternal",
+    "Every orbit is sovereign"
+  ],
+  "codexId": "ORBITAL-CODEX-2025-FINAL",
+  "modules": [
+    "ImmortalEngine",
+    "SymbolicGrid",
+    "CapitalRelay",
+    "SignalEngine",
+    "OfferFlow"
+  ],
+  "authoredBy": "Mustafa",
+  "timestamp": "2025-09-17T03:51:59.5134134+03:00",
+  "constellation": "MetaFlow Sovereign Grid",
+  "orbitTrajectory": "Legacy → Sovereignty → Immortality"
+}

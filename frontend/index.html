@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Verdict Sync Cockpit</title>
+</head>
+<body>
+  <h1>?? Verdict Sync</h1>
+  <form id='verdictForm'>
+    <input name='symbol' placeholder='Symbol' required />
+    <input name='verdict' placeholder='Verdict' required />
+    <input name='capital' type='number' placeholder='Capital' required />
+    <input name='entry' type='number' step='0.0001' placeholder='Entry' required />
+    <input name='stop' type='number' step='0.0001' placeholder='Stop' required />
+    <input name='target' type='number' step='0.0001' placeholder='Target' required />
+    <input name='hold' placeholder='Hold Message' />
+    <input name='link' placeholder='Scroll Link' />
+    <input name='mvp' placeholder='MVP Status' />
+    <input name='backend' placeholder='Backend Status' />
+    <input name='logic' placeholder='Logic Status' />
+    <button type='submit'>Push Verdict</button>
+  </form>
+  <pre id='response'></pre>
+  <script src='verdict.js'></script>
+</body>
+</html>

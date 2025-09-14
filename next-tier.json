@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-09-17T02:38:12.4049543+03:00",
+  "currentTier": "Tier-2",
+  "triggerReason": "High Conversion Rate",
+  "marketerId": "MARKETER-001",
+  "verdict": "Promoted",
+  "nextTier": "Tier-3"
+}

@@ -1,0 +1,14 @@
+{
+  "engineId": "LEGACY-ENGINE-001",
+  "founderSeal": "FOUNDER-SEAL-2025",
+  "modules": [
+    "OfferFlow",
+    "MiaFilter",
+    "WalletLedger",
+    "SignalEngine",
+    "CapitalRelay"
+  ],
+  "cockpitState": "SEALED",
+  "verdictChain": "COMPLETE",
+  "timestamp": "2025-09-17T02:59:50.6956908+03:00"
+}

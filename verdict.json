@@ -1,0 +1,14 @@
+{
+    "stop":  1.23,
+    "symbol":  "AUDUSD",
+    "date":  "2025-09-14T18:46:02Z",
+    "verdict":  "Hold",
+    "mvp":  "Live",
+    "link":  "https://tradingview.com/chart",
+    "capital":  1000,
+    "hold":  "Waiting for breakout",
+    "target":  1.24,
+    "backend":  "Stable",
+    "logic":  "Confirmed",
+    "entry":  1.2345
+}

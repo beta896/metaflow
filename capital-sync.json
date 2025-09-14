@@ -1,0 +1,10 @@
+{
+  "relayStatus": "SYNCED",
+  "engineId": "CAPITAL-ENGINE-001",
+  "marketerId": "MARKETER-001",
+  "timestamp": "2025-09-17T02:45:27.5779013+03:00",
+  "marketerProfit": 150.0,
+  "metaflowCut": 0.1,
+  "commissionRate": 0.25,
+  "totalSales": 1000
+}

@@ -1,0 +1,10 @@
+{
+  "walletBalance": 225.0,
+  "cockpitState": "SEALED",
+  "payoutStatus": "WITHDRAWN",
+  "tier": "Tier-2",
+  "marketerId": "MARKETER-001",
+  "activeOffer": "OFFER-2025-001",
+  "legacySeal": "FINAL-2025-SNAPSHOT",
+  "timestamp": "2025-09-17T02:43:27.9989958+03:00"
+}

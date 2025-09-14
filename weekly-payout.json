@@ -1,0 +1,9 @@
+{
+  "metaflowCut": 100.0,
+  "totalSales": 1000,
+  "payoutDate": "2025-09-17T00:53:45.0401650+03:00",
+  "marketerId": "MARKETER-001",
+  "walletId": "WALLET-001",
+  "marketerProfit": 150.0,
+  "status": "DISPATCHED"
+}

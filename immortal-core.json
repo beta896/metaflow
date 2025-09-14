@@ -1,0 +1,15 @@
+{
+  "verdictRef": "VERDICT-2025-ETERNAL",
+  "modules": [
+    "OfferFlow",
+    "SignalEngine",
+    "CapitalRelay",
+    "ImmortalEngine",
+    "SymbolicGrid"
+  ],
+  "coreId": "IMMORTAL-CORE-2025",
+  "timestamp": "2025-09-17T03:31:00.8309713+03:00",
+  "codexRef": "CODEX-2025-FOUNDER",
+  "sealedBy": "Mustafa",
+  "essence": "Clarity, Sovereignty, Compounding Logic"
+}

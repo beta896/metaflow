@@ -1,0 +1,15 @@
+{
+  "verdictChain": "COMPLETE",
+  "snapshotId": "IMMORTAL-2025-FOUNDER",
+  "modules": [
+    "OfferFlow",
+    "MiaFilter",
+    "WalletLedger",
+    "SignalEngine",
+    "CapitalRelay"
+  ],
+  "cockpitState": "SEALED",
+  "timestamp": "2025-09-17T02:58:43.8869946+03:00",
+  "exportedBy": "Mustafa",
+  "legacySeal": "LEGACY-2025-FOUNDER"
+}

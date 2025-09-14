@@ -1,0 +1,11 @@
+{
+  "tier": "Tier-2",
+  "payoutStatus": "DISPATCHED",
+  "metaflowCut": 0.1,
+  "transactionId": "TXN-555947",
+  "timestamp": "2025-09-17T02:40:03.5935864+03:00",
+  "totalSales": 1000,
+  "marketerProfit": 150.0,
+  "marketerId": "MARKETER-001",
+  "commissionRate": 0.15
+}

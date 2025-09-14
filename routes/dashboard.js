@@ -1,15 +1,16 @@
-const express = require('express');
+import express from "express";
+import Affiliate from "../models/Affiliate.js";
+
 const router = express.Router();
-const Affiliate = require('../models/Affiliate');
 
 function getTier(profit) {
-  if (profit >= 10000) return '?? Gold';
-  if (profit >= 5000) return '?? Silver';
-  if (profit >= 1000) return '?? Bronze';
-  return '?? Starter';
+  if (profit >= 10000) return "🏆 Gold";
+  if (profit >= 5000) return "🥈 Silver";
+  if (profit >= 1000) return "🥉 Bronze";
+  return "🚀 Starter";
 }
 
-router.get('/summary', async (req, res) => {
+router.get("/summary", async (req, res) => {
   try {
     const affiliates = await Affiliate.find({});
     const summary = affiliates.map(a => ({
@@ -20,8 +21,8 @@ router.get('/summary', async (req, res) => {
     }));
     res.json({ summary });
   } catch (err) {
-    res.status(500).json({ error: 'Dashboard error', details: err.message });
+    res.status(500).json({ error: "Dashboard error", details: err.message });
   }
 });
 
-module.exports = router;
+export default router;

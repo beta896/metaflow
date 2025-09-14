@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-09-17T03:04:11.2610034+03:00",
+    "echoId": "ECHO-001",
+    "message": "Every cockpit pulse is a verdict.",
+    "module": "CapitalRelay"
+  },
+  {
+    "timestamp": "2025-09-17T03:04:11.2610482+03:00",
+    "echoId": "ECHO-002",
+    "message": "Every verdict is a milestone.",
+    "module": "TierMap"
+  },
+  {
+    "timestamp": "2025-09-17T03:04:11.2610618+03:00",
+    "echoId": "ECHO-003",
+    "message": "Every milestone is mine.",
+    "module": "LegacySeal"
+  }
+]

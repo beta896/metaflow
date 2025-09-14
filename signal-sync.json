@@ -1,0 +1,16 @@
+[
+  {
+    "eventType": "CLICK",
+    "timestamp": "2025-09-17T02:43:13.5319917+03:00",
+    "offerId": "OFFER-2025-001",
+    "affiliateId": "AFF-001",
+    "verified": true
+  },
+  {
+    "eventType": "CONVERSION",
+    "timestamp": "2025-09-17T02:43:13.5320457+03:00",
+    "offerId": "OFFER-2025-001",
+    "affiliateId": "AFF-001",
+    "verified": true
+  }
+]

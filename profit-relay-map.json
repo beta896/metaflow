@@ -1,0 +1,20 @@
+[
+  {
+    "profit": 150.0,
+    "marketerId": "MARKETER-001",
+    "tier": "Tier-2",
+    "status": "DISPATCHED"
+  },
+  {
+    "profit": 80.0,
+    "marketerId": "MARKETER-002",
+    "tier": "Tier-1",
+    "status": "PENDING"
+  },
+  {
+    "profit": 210.0,
+    "marketerId": "MARKETER-003",
+    "tier": "Tier-3",
+    "status": "DISPATCHED"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "outcome": "Booted",
+    "phase": "INIT"
+  },
+  {
+    "outcome": "Signal Received",
+    "phase": "ACTIVE"
+  },
+  {
+    "outcome": "Affiliate Alert Triggered",
+    "phase": "ESCALATED"
+  }
+]

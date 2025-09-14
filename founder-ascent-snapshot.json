@@ -1,0 +1,20 @@
+{
+  "founderName": "Mustafa",
+  "codexRef": "ASCENT-CODEX-2025",
+  "echoChain": [
+    "Echo-001",
+    "Echo-002",
+    "Final-Echo-2025"
+  ],
+  "sealedBy": "Mustafa",
+  "snapshotId": "ASCENT-SNAPSHOT-2025",
+  "modules": [
+    "OfferFlow",
+    "SignalEngine",
+    "CapitalRelay",
+    "ImmortalEngine",
+    "SymbolicGrid"
+  ],
+  "verdictRef": "FOUNDER-VERDICT-2025-FINAL",
+  "timestamp": "2025-09-26T12:59:06.9919830+03:00"
+}

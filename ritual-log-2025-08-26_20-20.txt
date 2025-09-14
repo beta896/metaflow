@@ -1,0 +1,1 @@
+Step 22 complete: server.js updated with Sequelize sync, Verdict model, and routing at 2025-08-26_20-20

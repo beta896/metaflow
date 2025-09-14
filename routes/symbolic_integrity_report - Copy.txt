@@ -1,0 +1,60 @@
+
+📄 File: affiliateRoutes.js
+🔐 verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: aiRoutes.js
+⚠️ Missing verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: api.js
+🔐 verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: auditRoutes.js
+⚠️ Missing verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: auth.js
+🔐 verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: authRoutes.js
+⚠️ Missing verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: inventoryRoutes.js
+🔐 verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: personaRoutes.js
+⚠️ Missing verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: revenueAnalyticsRoutes.js
+⚠️ Missing verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: revenueRoutes.js
+🔐 verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: scrap.js
+⚠️ Missing verifyToken
+   ⚠️ Missing logAction
+   📦 Exported
+
+📄 File: userRoutes.js
+🔐 verifyToken
+   ⚠️ Missing logAction
+   📦 Exported

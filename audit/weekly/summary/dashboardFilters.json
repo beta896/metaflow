@@ -1,0 +1,20 @@
+{
+  \"views\": [
+    {
+      \"name\": \"Elite Executions\",
+      \"filter\": \"Execution Verdict = 'Elite Execution'\"
+    },
+    {
+      \"name\": \"Payout Tracker\",
+      \"filter\": \"final_payout > 0\"
+    },
+    {
+      \"name\": \"Ritual Syncs\",
+      \"filter\": \"ritualTag != ''\"
+    },
+    {
+      \"name\": \"Weekly Scoreboard\",
+      \"filter\": \"Impact = 'review'\"
+    }
+  ]
+}

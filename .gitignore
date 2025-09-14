@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+.env
+*.log
+
+# Python virtualenv
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/

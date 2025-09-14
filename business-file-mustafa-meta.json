@@ -1,0 +1,43 @@
+{
+  "_id": "mustafa-meta",
+  "profile": {
+    "fullName": "Mustafa",
+    "email": "mustafa@metaflow.io",
+    "role": "creator",
+    "location": "10th of Ramadan, Egypt",
+    "joinedAt": "2025-08-16T00:58:45.500Z"
+  },
+  "socialAccounts": [],
+  "wallet": {
+    "provider": "InstaPay",
+    "walletId": "01008375898",
+    "linkedAt": "2025-08-16T00:58:00Z",
+    "active": true,
+    "verified": true
+  },
+  "offerHistory": [],
+  "earnings": {
+    "totalEarned": 0,
+    "pending": 0,
+    "withdrawn": 0,
+    "lastUpdated": "2025-08-16T00:58:45.501Z"
+  },
+  "auditTrail": [
+    {
+      "action": "wallet:link",
+      "userId": "mustafa-meta",
+      "provider": "InstaPay",
+      "walletId": "01008375898",
+      "timestamp": "2025-08-16T00:06:34.456Z",
+      "source": "CLI"
+    },
+    {
+      "action": "wallet:verify",
+      "userId": "mustafa-meta",
+      "provider": "InstaPay",
+      "walletId": "01008375898",
+      "timestamp": "2025-08-16T00:16:14.445Z",
+      "source": "CLI"
+    }
+  ]
+}

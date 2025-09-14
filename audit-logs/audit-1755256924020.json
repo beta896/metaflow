@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-15T11:22:04.020Z",
+  "scanned": 5,
+  "flagged": 1,
+  "fixed": 1,
+  "clean": 4,
+  "files": {
+    "flagged": [
+      "C:\\Users\\hp\\metaflowbackend\\middleware\\sessionStore.js"
+    ],
+    "fixed": [
+      "C:\\Users\\hp\\metaflowbackend\\middleware\\sessionStore.js"
+    ],
+    "clean": [
+      "C:\\Users\\hp\\metaflowbackend\\middleware\\authMiddleware.js",
+      "C:\\Users\\hp\\metaflowbackend\\middleware\\cache.js",
+      "C:\\Users\\hp\\metaflowbackend\\middleware\\passportSetup.js",
+      "C:\\Users\\hp\\metaflowbackend\\middleware\\redisCache.js"
+    ]
+  }
+}

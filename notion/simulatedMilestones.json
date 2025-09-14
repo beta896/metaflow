@@ -1,0 +1,23 @@
+[
+  {
+    \"title\": \"Tier 2 Ingestion Ritual\",
+    \"metric\": \"offers\",
+    \"value\": 12,
+    \"impactTag\": \"refresh\",
+    \"streakTag\": \"breakthrough\"
+  },
+  {
+    \"title\": \"Affiliate Tier Escalation\",
+    \"metric\": \"payout\",
+    \"value\": 0,
+    \"impactTag\": \"unlock\",
+    \"streakTag\": \"breakthrough\"
+  },
+  {
+    \"title\": \"Symbolic Execution Bonus\",
+    \"metric\": \"payout\",
+    \"value\": \"2x\",
+    \"impactTag\": \"bonus\",
+    \"streakTag\": \"breakthrough\"
+  }
+]

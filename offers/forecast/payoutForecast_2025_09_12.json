@@ -1,0 +1,9 @@
+{
+  \"tier\": \"Tier 2\",
+  \"expected_signups\": 20,
+  \"base_payout\": 2.50,
+  \"multiplier\": 1.5,
+  \"projected_payout\": 75.00,
+  \"timeframe\": \"weekly\",
+  \"status\": \"forecasted\"
+}

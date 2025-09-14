@@ -1,0 +1,10 @@
+{
+  "txID": "TX-20250823-001",
+  "initiator": "Brand_A",
+  "receiver": "Influencer_X",
+  "stakeLocked": true,
+  "disciplineScore": 0.92,
+  "promiseRatio": 1.0,
+  "roleStamp": "Brand",
+  "timestamp": "2025-08-23T13:22:00Z"
+}

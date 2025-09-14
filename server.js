@@ -1,12 +1,20 @@
 const express = require('express');
 const app = express();
-const userRoutes = require('./routes/users');
+const mongoose = require('mongoose');
+const affiliateRoutes = require('./routes/affiliate');
 
 app.use(express.json());
-app.use('/api/users', userRoutes);
+app.use('/api/affiliate', affiliateRoutes);
+
+mongoose.connect('mongodb://localhost:27017/metaflow', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => {
+  console.log('[mongo] Connected to MongoDB');
+});
 
 app.get('/', (req, res) => {
-  res.send('?? Metaflow backend cockpit is live');
+  res.send('?? Affiliate engine cockpit is live');
 });
 
 app.listen(3000, () => {

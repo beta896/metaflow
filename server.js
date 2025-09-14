@@ -1,4 +1,6 @@
 const express = require('express');
+const dashboardRoutes = require('./routes/dashboard');
+app.use('/api/dashboard', dashboardRoutes);
 const app = express();
 const mongoose = require('mongoose');
 const affiliateRoutes = require('./routes/affiliate');
@@ -20,3 +22,4 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('[engine-start] Metaflow running at http://localhost:3000');
 });
+

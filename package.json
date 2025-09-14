@@ -1,12 +1,14 @@
 {
-<<<<<<< HEAD
-  "name": "metaflow-backend",
+  "name": "metaflow-monorepo",
   "version": "1.1.0",
-  "description": "Scalable backend with OAuth, Redis, MongoDB, Sequelize, Passport, and milestone sync",
+  "description": "Unified cockpit for Metaflow — scalable backend and React frontend",
   "type": "module",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "dev": "nodemon server.js",
     "sync": "node utils/milestoneSync.js"
   },
@@ -20,6 +22,8 @@
     "Redis",
     "Caching",
     "Passport",
+    "React",
+    "Frontend",
     "Backend",
     "API",
     "RateLimiter",
@@ -56,36 +60,25 @@
     "pg": "^8.16.0",
     "pg-hstore": "^2.3.4",
     "rate-limit-redis": "^4.2.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "5.0.1",
     "redis": "^5.8.1",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7",
+    "web-vitals": "^2.1.4",
     "winston": "^3.17.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "eslint": "^9.33.0",
     "husky": "^9.1.7",
-    "nodemon": "^3.0.0"
-=======
-  "name": "socioboard-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
+    "nodemon": "^3.0.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "@testing-library/user-event": "^13.5.0"
   },
   "eslintConfig": {
     "extends": [
@@ -104,6 +97,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> 5b44bae0a0876873c6fe8a67004c52601cd4e71e
+
   }
 }

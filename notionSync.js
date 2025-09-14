@@ -1,15 +1,28 @@
-// notionSync.js — Verdict Chain Logger
+const { Client } = require('@notionhq/client');
+require('dotenv').config();
 
-import { Client } from '@notionhq/client';
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 
-export async function logVerdict(verdict) {
+async function logMilestone(tag, message) {
   await notion.pages.create({
-    parent: { database_id: process.env.NOTION_DB_ID },
+    parent: { database_id: process.env.NOTION_DB },
     properties: {
-      Title: { title: [{ text: { content: verdict.title } }] },
-      Result: { rich_text: [{ text: { content: verdict.result } }] },
+      Name: { title: [{ text: { content: tag } }] },
+      Description: { rich_text: [{ text: { content: message } }] },
       Timestamp: { date: { start: new Date().toISOString() } }
     }
   });
 }
+
+async function logAffiliateVerdict(action, data) {
+  await notion.pages.create({
+    parent: { database_id: process.env.NOTION_DB },
+    properties: {
+      Name: { title: [{ text: { content: \Affiliate \\ } }] },
+      Description: { rich_text: [{ text: { content: JSON.stringify(data) } }] },
+      Timestamp: { date: { start: new Date().toISOString() } }
+    }
+  });
+}
+
+module.exports = { logMilestone, logAffiliateVerdict };

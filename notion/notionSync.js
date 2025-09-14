@@ -1,30 +1,30 @@
-// C:\Users\hp\myNewNotionBoard\notion\notionSync.js
-
+require('dotenv').config();
 const { Client } = require('@notionhq/client');
 require('dotenv').config();
 
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 
 async function logMilestone(tag, message) {
+  try {
     await notion.pages.create({
-        parent: { database_id: process.env.NOTION_DB },
-        properties: {
-            Name: { title: [{ text: { content: tag } }] },
-            Message: { rich_text: [{ text: { content: message } }] },
-            Timestamp: { date: { start: new Date().toISOString() } }
+      parent: { database_id: process.env.NOTION_MILESTONES_DB },
+      properties: {
+        Milestone: {
+          title: [{ text: { content: `${tag} — ${message}` } }]
+        },
+        Phase: {
+          rich_text: [{ text: { content: "Deployment" } }]
+        },
+        Verdict: {
+          rich_text: [{ text: { content: "✅ Synced from cockpit" } }]
         }
+        // Optional: Add Payout and Deadline if needed
+      }
     });
+    console.log("✅ Milestone logged to Notion");
+  } catch (error) {
+    console.error("❌ Notion logging failed:", error);
+  }
 }
 
-async function logAffiliateVerdict(action, data) {
-    await notion.pages.create({
-        parent: { database_id: process.env.NOTION_DB },
-        properties: {
-            Name: { title: [{ text: { content: `Affiliate ${action}` } }] },
-            Message: { rich_text: [{ text: { content: JSON.stringify(data) } }] },
-            Timestamp: { date: { start: new Date().toISOString() } }
-        }
-    });
-}
-
-module.exports = { logMilestone, logAffiliateVerdict };
+export default { logMilestone };

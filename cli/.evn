@@ -1,0 +1,8 @@
+MONGO_URI=mongodb://localhost:27017/metaflow
+API_KEY=test-api-key-123
+DB_HOST=localhost
+DB_PORT=5432
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+SLACK_BOT_TOKEN=xoxb-1234567890-abcdefg
+SLACK_CHANNEL=#audit-alerts

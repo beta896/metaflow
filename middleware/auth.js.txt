@@ -1,0 +1,20 @@
+// @audit-clean: MetaFlow earnings tracker utility
+
+import AuditLog from '../models/AuditLog.js';
+
+export const trackEarnings = async ({ module, action, entityId, performedBy }) => {
+  try {
+    await AuditLog.create({
+      entity: 'Earnings',
+      entityId,
+      action: `meta:${module}:${action}`,
+      performedBy,
+      timestamp: new Date().toISOString(),
+      source: 'metaFlow',
+    });
+
+    console.log(`💰 [MetaFlow] Earnings tracked: ${module}:${action}`);
+  } catch (err) {
+    console.error('❌ [MetaFlow] Failed to track earnings:', err.message);
+  }
+};

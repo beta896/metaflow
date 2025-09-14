@@ -1,0 +1,12 @@
+{
+  "userId": "mustafa-meta",
+  "linkedWallets": [
+    {
+      "provider": "InstaPay",
+      "walletId": "01008375898",
+      "linkedAt": "2025-08-16T00:58:00Z",
+      "active": true,
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "RenewalEligible": true,
+  "ExpiryDate": "/Date(1763741649546)/",
+  "Purpose": "To encode staking discipline and vault integrity",
+  "StartDate": "2025-08-23T12:59:04.317Z",
+  "Name": "StakingSanctum",
+  "Status": "Active",
+  "JusticeTrigger": "MissedStakeWindow",
+  "Initiator": "Mustafa001",
+  "CovenantID": "COV-562383"
+}

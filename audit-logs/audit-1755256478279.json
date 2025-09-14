@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-08-15T11:14:38.277Z",
+  "scanned": 11,
+  "flagged": 0,
+  "fixed": 0,
+  "clean": 11,
+  "files": {
+    "flagged": [],
+    "fixed": [],
+    "clean": [
+      "C:\\Users\\hp\\metaflowbackend\\ai\\adOptimizer.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\affiliateMatchingAI.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\biddingOptimizer.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\flowAgent.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\monetizationAI.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\recommendationAI.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\revenueOptimizer.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\revenuePredictor.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\seasonalRevenueAI.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\userEngagementAI.js",
+      "C:\\Users\\hp\\metaflowbackend\\ai\\userSegmentationAI.js"
+    ]
+  }
+}

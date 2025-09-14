@@ -1,0 +1,9 @@
+{
+  \"tier_id\": \"TIER-2025-0912-01\",
+  \"tier\": \"Tier 3\",
+  \"trigger\": \"Breakthrough Chain\",
+  \"multiplier\": 2.0,
+  \"velocity\": \"exponential\",
+  \"symbolicVerdict\": \"?? Tier Breakout\",
+  \"status\": \"active\"
+}

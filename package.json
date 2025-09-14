@@ -2,7 +2,7 @@
   "name": "metaflow-monorepo",
   "version": "1.1.0",
   "description": "Unified cockpit for Metaflow — scalable backend and React frontend",
-  "type": "module",
+  
   "private": true,
   "scripts": {
     "start": "react-scripts start",

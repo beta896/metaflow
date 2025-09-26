@@ -1,8 +1,9 @@
-name: Deploy MetaFlow
+name: MetaFlow CI/CD
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build:
@@ -16,8 +17,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
+      - name: Install backend dependencies
         run: npm install
 
-      - name: Run backend
-        run: npm run dev
+      - name: Build frontend
+        run: |
+          cd frontend
+          npm install
+          npm run build

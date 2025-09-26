@@ -1,0 +1,1 @@
+# Frontend cockpit modules

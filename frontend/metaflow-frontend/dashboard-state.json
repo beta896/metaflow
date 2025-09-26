@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-09-17T02:42:03.8486554+03:00",
+  "payoutStatus": "WITHDRAWN",
+  "activeOffer": "OFFER-2025-001",
+  "tier": "Tier-2",
+  "marketerId": "MARKETER-001",
+  "transactionId": "TXN-326651",
+  "walletBalance": 225.0,
+  "cockpitState": "SEALED"
+}

@@ -1,0 +1,164 @@
+.verdict.alpha {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+.verdict.omega {
+  color: #ff5722;
+  font-style: italic;
+}
+
+.verdict.delta {
+  color: #8bc34a;
+}
+.filter-buttons {
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-buttons button:hover {
+  background-color: #ddd;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.edit-btn {
+  margin-left: 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+  background-color: #1976d2;
+}
+
+.modal-content textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.edit-btn {
+  margin-left: 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+  background-color: #1976d2;
+}
+
+.modal-content textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.delete-btn {
+  margin-left: 0.5rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+.verdict.deleted {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.resurrect-btn {
+  margin-left: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.resurrect-btn:hover {
+  background-color: #388e3c;
+}
+.diff-viewer {
+  margin-top: 1rem;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid #2196f3;
+}
+
+.diff-viewer p {
+  margin: 0.5rem 0;
+}
+.modal-content button {
+  margin-right: 0.5rem;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,10 @@
+{
+  "status": "ACTIVE",
+  "activeOffer": "OFFER-2025-001",
+  "tier": "Tier-2",
+  "nextPayout": "2025-09-23",
+  "marketerId": "MARKETER-001",
+  "lastPayout": "2025-09-16",
+  "walletBalance": 150.0,
+  "cockpitState": "SEALED"
+}

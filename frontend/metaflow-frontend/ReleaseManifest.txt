@@ -1,0 +1,10 @@
+Release Manifest — v1.0.3
+Patch ID: PROPHECY-PATCH-0823
+Timestamp: 2025-08-23 21:56:33
+
+✅ RoleRouter scoped to '/'
+✅ /user route restored
+✅ handlePreview guarded
+✅ AdminPage role transitions validated
+✅ Lifecycle corruption simulated and recovered
+✅ Real-time audit trail bound to prophecy module

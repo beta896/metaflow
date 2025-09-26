@@ -1,0 +1,26 @@
+{
+  "roles": {
+    "Brand": {
+      "permissions": [
+        "register_brand",
+        "create_affiliate_offers"
+      ],
+      "badge": "Strategist"
+    },
+    "Admin": {
+      "permissions": [
+        "view_all_profiles",
+        "control_system_status"
+      ],
+      "badge": "Supreme"
+    },
+    "User": {
+      "permissions": [
+        "register_account",
+        "publish_posts",
+        "download_direct_posts"
+      ],
+      "badge": "Participant"
+    }
+  }
+}

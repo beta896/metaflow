@@ -1,0 +1,17 @@
+{
+  "modules": [
+    "OfferFlow",
+    "MiaFilter",
+    "WalletLedger",
+    "SignalEngine",
+    "CapitalRelay"
+  ],
+  "marketerId": "MARKETER-001",
+  "walletBalance": 225.0,
+  "activeOffer": "OFFER-2025-001",
+  "cockpitState": "SEALED",
+  "legacySeal": "LEGACY-2025-FOUNDER",
+  "tier": "Tier-2",
+  "payoutStatus": "WITHDRAWN",
+  "timestamp": "2025-09-17T02:56:43.8372026+03:00"
+}

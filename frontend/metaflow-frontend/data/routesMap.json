@@ -1,0 +1,6 @@
+[
+  { "path": "/register", "method": "POST", "middleware": ["verifyToken"], "exported": true },
+  { "path": "/reset", "method": "POST", "middleware": ["verifyToken", "verifyOwnership"], "exported": true },
+  { "path": "/link", "method": "POST", "middleware": ["verifyToken", "verifyOwnership"], "exported": true },
+  { "path": "/google", "method": "POST", "middleware": [], "exported": true }
+]

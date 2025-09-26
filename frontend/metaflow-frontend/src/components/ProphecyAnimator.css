@@ -1,0 +1,12 @@
+.prophecy-flare {
+  animation: flare 1.5s ease-out;
+  color: gold;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ffd700;
+}
+
+@keyframes flare {
+  0% { opacity: 0; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0; transform: scale(1); }
+}

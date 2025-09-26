@@ -1,0 +1,6 @@
+[
+  { "action": "REGISTER", "user": "admin@example.com", "timestamp": "2025-08-23T18:08:35Z" },
+  { "action": "RESET_PASSWORD", "user": "user@example.com", "timestamp": "2025-08-23T18:09:12Z" },
+  { "action": "LINK_SOCIAL", "user": "user@example.com", "provider": "google", "timestamp": "2025-08-23T18:10:01Z" },
+  { "action": "GOOGLE_REGISTER", "user": "newuser@domain.com", "timestamp": "2025-08-23T18:11:44Z" }
+]

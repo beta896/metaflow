@@ -1,0 +1,1 @@
+Step 21 complete: Resurrection panel and rollback logic enabled in Timeline.jsx at 2025-08-26_20-00

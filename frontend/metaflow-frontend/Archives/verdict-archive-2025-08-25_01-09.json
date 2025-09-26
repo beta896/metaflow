@@ -1,0 +1,15 @@
+{
+    "modules":  [
+                    "Dashboard.ps1",
+                    "PathVerifier.ps1",
+                    "SanctityRepair.ps1"
+                ],
+    "verdict":  "Sanctity verified",
+    "timestamp":  {
+                      "value":  "\/Date(1756073412387)\/",
+                      "DisplayHint":  2,
+                      "DateTime":  "Monday, August 25, 2025 1:10:12 AM"
+                  },
+    "status":  "PASS",
+    "role":  "Admin"
+}

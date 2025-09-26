@@ -1,0 +1,78 @@
+useEffect(() => {
+  const logRole = (role) => {
+    const timestamp = new Date().toISOString();
+    const entry = `${timestamp} - Role set to: ${role}\n`;
+    require('fs').appendFileSync('C:\\Users\\hp\\metaflow-frontend\\AuditTrail.txt', entry);
+  };
+
+  logRole(user.role);
+}, [user.role]);
+useEffect(() => {
+  const corruptCycle = setInterval(() => {
+    setUser(prev => {
+      const corrupted = { ...prev, role: undefined };
+      console.warn('⚠️ Role corrupted:', corrupted);
+      return corrupted;
+    });
+
+    setTimeout(() => {
+      setUser(prev => {
+        const recovered = { ...prev, role: 'user' };
+        console.log('✅ Role recovered:', recovered);
+        return recovered;
+      });
+    }, 2000);
+  }, 10000); // every 10 seconds
+
+  return () => clearInterval(corruptCycle);
+}, []);
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import RoleRouter from './components/RoleRouter';
+import AdminPage from './pages/AdminPage';
+import InfluencerPage from './pages/InfluencerPage';
+import BrandPage from './pages/BrandPage';
+import UserPage from './pages/UserPage';
+
+const initialUser = {
+  id: 'u001',
+  name: 'Mustafa',
+  role: 'admin',
+  profile: {
+    name: 'Mustafa',
+    followers: 120000,
+    engagementRate: 0.87,
+    socials: ['Instagram', 'TikTok'],
+    offers: ['StyleHub', 'BrandX'],
+    industry: 'Tech',
+    offersSent: ['InnovateNow']
+  }
+};
+
+
+const roles = ['Admin', 'User', 'Guest', 'Influencer', 'Brand'];
+
+function App() {
+  const [role, setRole] = useState('Guest');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const nextRole = roles[Math.floor(Math.random() * roles.length)];
+      setRole(nextRole);
+      logRole(nextRole);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+
+
+
+
+
+
+
+
+
+
+
+export default App;

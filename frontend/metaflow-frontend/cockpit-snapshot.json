@@ -1,0 +1,10 @@
+{
+  "modules": [
+    "SignalEngine",
+    "AffiliateAccess",
+    "VerdictChain"
+  ],
+  "verified": true,
+  "timestamp": "2025-09-17T00:21:36.2109659+03:00",
+  "cockpitState": "ESCALATED"
+}

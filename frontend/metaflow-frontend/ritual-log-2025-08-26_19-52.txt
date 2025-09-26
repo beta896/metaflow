@@ -1,0 +1,1 @@
+Step 17 complete: Verdict filtering and symbolic icons added to Timeline.jsx at 2025-08-26_19-52

@@ -10,6 +10,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "nodemon server.js",
+    "dev:client": "react-scripts start",
+    "dev:server": "nodemon server.js",
+    "dev:all": "cross-env BROWSER=none concurrently -k -n CLIENT,API -c cyan,magenta \"npm run dev:client\" \"npm run dev:server\"",
     "sync": "node utils/milestoneSync.js"
   },
   "engines": {
@@ -73,7 +76,7 @@
     "web-vitals": "^2.1.4",
     "winston": "^3.17.0"
   },
-  "devDependencies": {
+  "devDependencies": {"concurrently": "^8.2.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -83,6 +86,7 @@
     "husky": "^9.1.7",
     "nodemon": "^3.0.0"
   },
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",

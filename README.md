@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+$readmeContent = @"
+# 🧠 MetaFlow System — Founder-Grade Architecture
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MetaFlow is a modular backend/frontend system designed for smart transportation, admin coordination, and affiliate profit relay. Built by Mustafa, this cockpit-grade architecture merges operational clarity with symbolic exports and audit-ready logic.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔧 System Modules
 
-### `npm start`
+### Backend (Node.js + Express)
+- \`server.js\`: Core logic and routing
+- \`routes/\`: API endpoints for cockpit triggers
+- \`controllers/\`: Lifecycle logic, tier escalation, and affiliate sync
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend (React + Builder.io)
+- \`src/components/\`: Reusable UI elements
+- \`src/widgets/\`: Dynamic modules (ProfitWidget, TierWidget, VerdictChain)
+- \`public/\`: Static assets and cockpit visuals
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### CI/CD (GitHub Actions)
+- \`.github/workflows/deploy.yml\`: Auto-deploy pipeline with secret injection and tier logic
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🪙 Monetization Logic
 
-### `npm run build`
+- Stripe checkout flow
+- Affiliate engine with referral tracking
+- Tier escalation based on engagement and profit
+- Wallet ledger for sealed payouts and lifecycle tags
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔐 Secrets & Environment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Use \`.env\` to inject secure tokens:
 
-### `npm run eject`
+\`\`\`env
+NOTION_TOKEN=your-secret-token
+STRIPE_KEY=your-stripe-key
+\`\`\`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+\`\`\`bash
+npm install
+npm run dev
+\`\`\`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend build:
 
-## Learn More
+\`\`\`bash
+cd frontend
+npm install
+npm run build
+\`\`\`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧠 Vision
 
-### Code Splitting
+MetaFlow is more than code—it’s a symbolic cockpit for operational independence, compounding profit, and legacy-grade impact.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🤝 Contribute
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pull requests welcome. For strategic partnerships or cockpit sync, contact: \`founder@metaflow.systems\`
+"@
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Set-Content -Path README.md -Value $readmeContent
+git add README.md
+git commit -m "README updated: cockpit architecture and monetization logic"
+git push origin main

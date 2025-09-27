@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+## 🧠 What is MetaFlow?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MetaFlow is a modular, AI-powered monetization platform that transforms everyday social media users into brand partners. By linking their accounts, receiving matched offers, and publishing optimized content, users generate real income—while MetaFlow handles tracking, automation, and payouts invisibly.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔧 Core System Features
 
-### `npm start`
+1. **Account Linking & Persona Scoring**
+   - Users connect Instagram, TikTok, YouTube, or Facebook
+   - Identity and engagement verified
+   - Persona score calculated to unlock offer eligibility
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **AI-Powered Offer Matching**
+   - Matches users to brand offers based on:
+     - Audience demographics
+     - Engagement metrics
+     - Content style and platform
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Auto Publishing & Marketing**
+   - Generates captions, hashtags, and media assets
+   - Schedules posts for peak engagement
+   - Tracks clicks, shares, and conversions
 
-### `npm test`
+4. **Profit Tracking & Wallet System**
+   - Logs commissions per offer
+   - Updates wallet in real time
+   - Enables withdrawals via linked payment card
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔁 Post-to-Profit Cycle (Example)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. User links Instagram → Verified: 12K followers, 4.2% engagement  
+2. Matched offer: Crypto wallet promo → $2.50 per signup  
+3. Post auto-generated and published → Caption, image, tracking link  
+4. Engagement tracked → 312 clicks, 104 signups  
+5. Earnings logged → $260 added to wallet  
+6. User withdraws funds → Via linked card or wallet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧠 Platform Philosophy
 
-### `npm run eject`
+> “Every dollar is a soldier. Every verdict is a command. Every scroll is a signal.”
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Deployment Blueprint
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend**: React + TypeScript + Tailwind → deployed via Vercel  
+- **Backend**: Node.js APIs → deployed via Render  
+- **CI/CD**: GitHub Actions → test → build → deploy  
+- **Secrets**: Managed in Vercel and Render dashboards  
+- **AI Tools**:
+  - Builder.io → UI refactor and export
+  - Cursor AI → backend optimization and repo assistant
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📊 Platform Benefits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Fully automated monetization  
+- Transparent audit trail  
+- AI-driven personalization  
+- Scalable for brands and creators  
+- Secure, modular, and audit-ready
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🛣️ Vision & Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Phase 1: MVP launch with Instagram + TikTok  
+- Phase 2: Expand to YouTube, Facebook, Twitter  
+- Phase 3: Add campaign orchestration, bot automation, affiliate dashboards  
+- Phase 4: Launch MetaFlow Pro for agencies and power users
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📣 Call to Action
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MetaFlow is not just a tool—it’s a monetization ecosystem.  
+Whether you're a creator, brand, or investor, the opportunity is clear:  
+**Turn attention into income. At scale. With control.**
